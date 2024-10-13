@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="uft-8"/>
+		<meta name = "viewport" content = "width=device-width, inicial-scale=1.0">
+		<title>Portal Pará de Minas | Home </title>
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<h2 class="tituloSite">Portal Pará de Minas</h2>
+		<header id="menu">
+			<nav class="menu">
+				<a href="index.html" >Home</a>
+				<a href="tecnologia.html">Tecnologia</a>
+				<a href="economia.html">Economia</a>
+				<a href="entretenimento.html">Entretenimento</a>
+				<a href="contato.html"class="active">Contato</a>
+			</nav>
+		</header>
+		<section>
+			<div class="linha">
+				<div class="divoutrasnot">
+					<div class="titulonoticia">		
+						<h3>Se você gosta de se manter informado, preencha nosso formulário para receber as principais notícias diárias!</h3>
+					</div>
+					<form   name="contato"
+							method="post"
+							action="agradecimento.html"
+							autocomplete="on"
+							target="_self"
+							enctype="application/x-www-form-urlencoded">
+						Nome:<input type="text" name="Nome" size="20">
+						Número:<input type="tel" pattern="\d{2} \d{9}$" name="Número" size="20">
+						E-mail:<input type="email" name="E-mail" size="20">
+						Sexo:
+						Masculino<input type="radio" name="Sexo" value="M">
+						Feminino<input type="radio" name="Sexo" value="F">
+						<input type="submit" name="Enviar" value="Enviar">
+						<input type="reset" name="Limpar" value="Limpar">
+			
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer> Isys Naila, Fapam 2024</footer>
+	</body>
+</html>
